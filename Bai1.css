@@ -1,0 +1,41 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.logo {
+    font-size: 30px;
+    color: #6a6fd4;
+    font-weight: 700;
+}
+
+.nav-link {
+    padding-left: 100px   
+}
+
+.nav-link a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    color: black;
+}
+
+button {
+    font-size: 20px;
+    margin: 50px;
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
